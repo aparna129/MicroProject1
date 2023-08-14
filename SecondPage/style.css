@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+.first_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffcd9e;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 100vw;
+  padding-top: 3%;
+  padding-bottom: 0.1%;
+}
+.second_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #282828;
+  flex-wrap: wrap;
+  color: white;
+  height: 50vh;
+  width: 100vw;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.text1 {
+  padding-left: 3%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-family: "Inter", sans-serif;
+}
+.text2 {
+  padding-right: 15%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-family: "Inter", sans-serif;
+}
+.text3 {
+  padding-right: 2.5%;
+  padding-top: 3%;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+}
+.para {
+  color: white;
+  margin-left: 1%;
+}

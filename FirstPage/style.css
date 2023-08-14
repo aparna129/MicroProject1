@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+.first_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffcd9e;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 100vw;
+  padding-top: 3%;
+  padding-bottom: 0.1%;
+}
+.second_section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #282828;
+  flex-wrap: wrap;
+  color: white;
+  height: 50vh;
+  width: 100vw;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.text1 {
+  padding-left: 3%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-family: "Inter", sans-serif;
+}
+.text2 {
+  padding-right: 15%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-family: "Inter", sans-serif;
+  margin-top: 0.1%;
+}
+.text3 {
+  padding-right: 2.5%;
+  padding-top: 3%;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  margin-top: 0.1%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 23%;
+}
+button {
+  background-color: #282828;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 44px;
+  width: 170px;
+  padding-right: 5%;
+  margin-left: 15%;
+  margin-top: 4.5%;
+}
+.box {
+  height: 35px;
+  width: 200px;
+  border: solid 4px;
+  border-radius: 5px;
+  padding-left: 5%;
+  margin-top: 4%;
+  margin-right: 10%;
+}
+.para1 {
+  font-weight: 100;
+}
+.para2 {
+  font-weight: bold;
+  margin-top: 0.2%;
+}
+.para3 {
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+::placeholder {
+  font-weight: bold;
+}
